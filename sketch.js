@@ -261,7 +261,7 @@ function preload() {
     punchSounds.push(loadSound("assets/sounds/punch_" + i + ".wav"));
   }
   winSound = loadSound("assets/sounds/win.wav");
-  bgMusic  = loadSound("assets/sounds/background.mp3");
+  bgMusic  = loadSound("assets/sounds/GOR.mp3");
 }
 
 // ============================================================
@@ -289,7 +289,7 @@ function setupFighters() {
   fighter1 = new Fighter(
     200,
     groundY - 28,
-    color(0, 200, 180), // teal
+    color(165, 15, 35),
     { left: 65, right: 68, attack: 70, block: 71 }, // A D F G
     "P1",
   );
@@ -297,7 +297,7 @@ function setupFighters() {
   fighter2 = new Fighter(
     600,
     groundY - 28,
-    color(255, 150, 30), // orange
+    color(65, 60, 65), 
     { left: LEFT_ARROW, right: RIGHT_ARROW, attack: 75, block: 76 }, // Arrows K L
     "P2",
   );
@@ -379,9 +379,9 @@ function drawStartScreen() {
 
   // Controls — each player shown in their colour
   textSize(14);
-  fill(0, 200, 180);
+  fill(165, 15, 35);
   text("P1: A/D move   F attack   G block", width / 2, height / 2 + 30);
-  fill(255, 150, 30);
+  fill(65, 60, 65);
   text("P2: Arrows move   K attack   L block", width / 2, height / 2 + 55);
 
   // Start prompt
@@ -401,7 +401,7 @@ function drawWinScreen() {
   rect(0, 0, width, height);
 
   // Winner text — shown in the winner's colour
-  fill(winner === "P1" ? color(0, 200, 180) : color(255, 150, 30));
+  fill(winner === "P1" ? color(165, 15, 35) : color(65, 60, 65));
   textAlign(CENTER);
   textSize(56);
   text(winner + " WINS!", width / 2, height / 2 - 30);
@@ -482,14 +482,14 @@ function drawHealthBars() {
   let p1W = map(fighter1.health, 0, fighter1.maxHealth, 0, barW);
   fill(40);
   rect(padding, barY, barW, barH, 4);
-  fill(0, 200, 180);
+  fill(165, 15, 35);
   rect(padding, barY, p1W, barH, 4);
 
   // Player 2 health bar — right side, fills right to left
   let p2W = map(fighter2.health, 0, fighter2.maxHealth, 0, barW);
   fill(40);
   rect(width - padding - barW, barY, barW, barH, 4);
-  fill(255, 150, 30);
+  fill(65, 60, 65);
   rect(width - padding - p2W, barY, p2W, barH, 4);
 
   // Labels
