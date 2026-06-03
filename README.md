@@ -35,9 +35,9 @@ The console will show any errors in your sketch.
 
 | File                                        | Source                                            |
 | ------------------------------------------- | ------------------------------------------------- |
-| `assets/sounds/punch_1.wav` – `punch_9.wav` | Punch SFX — OpenGameArt.org                       |
+| `assets/sounds/punch_4.wav` – `punch_9.wav` | Punch SFX — OpenGameArt.org                       |
+| `assets/sounds/punch_1.wav` – `punch_3.wav` | Self-Made (New)
 | `assets/sounds/win.wav`                     | listener4me, Win Sound Effect — OpenGameArt.org   |
-| `assets/sounds/background.mp3`              | Matthew Pablo, Space Dimensions — OpenGameArt.org |
 
 ## References
 
