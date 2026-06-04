@@ -35,14 +35,12 @@ The console will show any errors in your sketch.
 
 | File                                        | Source                                            |
 | ------------------------------------------- | ------------------------------------------------- |
-| `assets/sounds/punch_4.wav` – `punch_9.wav` | Punch SFX — OpenGameArt.org                       |
+| `assets/sounds/punch_4.wav` – `punch_9.wav` [1] | Punch SFX — OpenGameArt.org                       |
 | `assets/sounds/punch_1.wav` – `punch_3.wav` | Self-Made (New)
-| `assets/sounds/win.wav`                     | listener4me, Win Sound Effect — OpenGameArt.org   |
+| `assets/sounds/win.wav`              [2]       | listener4me, Win Sound Effect — OpenGameArt.org   |
 
 ## References
 
-listener4me. n.d. _Win Sound Effect_. OpenGameArt.org. Retrieved May 1, 2026, from https://opengameart.org/content/win-sound-effect
+[2]listener4me. n.d. _Win Sound Effect_. OpenGameArt.org. Retrieved May 1, 2026, from https://opengameart.org/content/win-sound-effect
 
-Pablo, Matthew. n.d. _Space Dimensions (Techno Version)_. OpenGameArt.org. Retrieved May 1, 2026, from https://opengameart.org/content/space-dimensions-techno-version
-
-Punch SFX. n.d. OpenGameArt.org. Retrieved May 1, 2026, from https://opengameart.org/content/punch-sfx
+[1] Punch SFX. n.d. OpenGameArt.org. Retrieved May 1, 2026, from https://opengameart.org/content/punch-sfx
